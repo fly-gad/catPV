@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "catPV",
+  "usingComponents": {
+    "MyHader": "../../components/MyHader/MyHader",
+    "van-tab": "../../components/van/tab/index",
+    "van-tabs": "../../components/van/tabs/index"
+  }
+}

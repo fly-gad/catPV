@@ -1,0 +1,35 @@
+/* components/MyHaderr.wxss */
+.myHader {
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  background: #fff;
+}
+
+.logo {
+  flex: 7;
+}
+
+.mySearch {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myUser {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mybtn{
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  color: #fff;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}

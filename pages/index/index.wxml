@@ -1,0 +1,9 @@
+<view class="main">
+  <!--公共头部 -->
+  <MyHader></MyHader>
+  <view class="nav_wrap">
+    <van-tabs active="item.text=='首页'">
+      <van-tab title="{{item.text}}" wx:for="{{navList}}" wx:key="{{index}}">内容 1</van-tab>
+    </van-tabs>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<!--公共头部-->
+<view class="myHader">
+  <view class="logo">
+    <image class="logo_img" style="width: 100rpx;height: 60rpx;" src="../../icons/catPV.png"
+      mode="aspectFit|aspectFill|widthFix" />
+  </view>
+  <view class="mySearch">
+    <image src="../../icons/Search.png" style="width: 40rpx;height: 40rpx;" mode="aspectFit|aspectFill|widthFix" />
+  </view>
+  <view class="myUser">
+    <image src="../../icons/users.png" style="width: 50rpx;height: 50rpx;" mode="aspectFit|aspectFill|widthFix" />
+  </view>
+  <view class="mybtn">
+    下载
+  </view>
+</view>
