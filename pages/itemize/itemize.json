@@ -1,7 +1,6 @@
 {
-  "navigationBarTitleText": "maorengu",
+  "navigationBarTitleText": "猫人谷",
   "usingComponents": {
-    "MyHader": "../../components/MyHader/MyHader",
     "Tabr": "../../components/Tabr/Tabr",
     "van-tab": "../../components/van/tab/index",
     "van-tabs": "../../components/van/tabs/index",

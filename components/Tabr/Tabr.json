@@ -1,8 +1,5 @@
 {
-  "navigationBarTitleText": "maorengu",
   "usingComponents": {
-    "MyHader": "../../components/MyHader/MyHader",
-    "Tabr": "../../components/Tabr/Tabr",
     "van-tab": "../../components/van/tab/index",
     "van-tabs": "../../components/van/tabs/index",
     "van-tabbar": "../../components/van/tabbar/index",

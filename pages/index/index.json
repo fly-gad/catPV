@@ -1,8 +1,16 @@
 {
-  "navigationBarTitleText": "catPV",
+  "navigationBarTitleText": "猫人谷",
   "usingComponents": {
     "MyHader": "../../components/MyHader/MyHader",
+    "Tabr": "../../components/Tabr/Tabr",
     "van-tab": "../../components/van/tab/index",
-    "van-tabs": "../../components/van/tabs/index"
+    "van-tabs": "../../components/van/tabs/index",
+    "van-tabbar": "../../components/van/tabbar/index",
+    "van-tabbar-item": "../../components/van/tabbar-item/index",
+    "van-card": "../../components/van/card/index",
+    "van-icon": "../../components/van/icon/index",
+    "van-sticky": "./../components/van/sticky/index",
+    "van-grid": "./../components/van/grid/index",
+    "van-grid-item": "./../components/van/grid-item/index"
   }
 }

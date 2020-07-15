@@ -1,9 +1,130 @@
 <view class="main">
   <!--公共头部 -->
-  <MyHader></MyHader>
-  <view class="nav_wrap">
-    <van-tabs active="item.text=='首页'">
-      <van-tab title="{{item.text}}" wx:for="{{navList}}" wx:key="{{index}}">内容 1</van-tab>
+  <MyHader wx:if="{{show}}"></MyHader>
+  <!-- 首页 -->
+  <view class="nav_wrap" wx:if="{{show}}">
+    <van-tabs active="热门" sticky>
+      <van-tab title="热门" name="热门">
+        <view class="crd" wx:for="{{recommendList}}" wx:key="index">
+          <view class="crd_lf">{{imageURL}}</view>
+          <view class="crd_rg">
+            <view class="cre_title">{{item.title}}</view>
+            <view class="crd_uup">
+              <view class="cre_up">up</view>
+              <view class="crd_user">{{item.user}}</view>
+            </view>
+            <view class="fx">
+              <view class="crd_amount">
+                <view class="crd_amount_ico">
+                  <van-icon name="play" />
+                </view>
+                <view class="crd_amount_i">
+                  {{item.amount}}
+                </view>
+              </view>
+              <view class="crd_time">{{item.time}}</view>
+              <view class="crd_fenxiang">
+                <van-icon name="share" />
+              </view>
+            </view>
+          </view>
+        </view>
+      </van-tab>
+      <van-tab title="追剧" name="追剧">追剧</van-tab>
     </van-tabs>
+  </view>
+  <!-- 分区 -->
+  <view class="itemize" wx:if="{{show1}}">
+    <view class="itemize_con">
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/asd.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/健身了解一下.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/去兼职.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/去海岛玩.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/各种活动各种party.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/和电脑过.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/学乐器.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/当志愿者.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/打打篮球.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/画画.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/登山吗.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/看看书写写字.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+      <view class="itemize_con_v">
+        <image class="" src="../../icons/练书法.png" />
+        <text class="" selectable="false" space="false" decode="false">
+          下乡去
+        </text>
+      </view>
+    </view>
+  </view>
+  <!-- 我的 -->
+  <view class="user" wx:if="{{show2}}">
+    user
+  </view>
+  <view>
+    <van-tabbar active="{{ active }}" bind:change="onChange">
+      <van-tabbar-item icon="home-o" bindhange="goLink">首页</van-tabbar-item>
+      <van-tabbar-item icon="ellipsis" bindhange="goLink2">分区</van-tabbar-item>
+      <van-tabbar-item icon="friends-o">我的</van-tabbar-item>
+    </van-tabbar>
   </view>
 </view>

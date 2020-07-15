@@ -1,6 +1,9 @@
 {
   "component": true,
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
   "usingComponents": {
-    "van-button": "../../components/van/button/index"
+    "van-search": "../../components/van/search/index",
+    "van-sticky": "./../components/van/sticky/index"
   }
 }

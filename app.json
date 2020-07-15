@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "components/MyHader/MyHader"
+    "pages/itemize/itemize",
+    "components/MyHader/MyHader",
+    "components/Tabr/Tabr",
+    "pages/itemize/itemizeList/itemizeList"
   ],
   "window": {
     "backgroundTextStyle": "light",

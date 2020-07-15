@@ -1,0 +1,118 @@
+.main {
+  padding: 5rpx;
+}
+
+.nav_wrap {
+  font-size: 32rpx;
+
+}
+
+.van-ellipsis {
+  font-weight: 800;
+}
+
+.crd {
+  display: flex;
+  font-size: 30rpx;
+  padding: 10rpx;
+  border-bottom: 1rpx solid rgb(197, 197, 197);
+}
+
+.cre_title {
+  font-size: 26rpx;
+}
+
+.crd_lf {
+  flex: 4;
+  height: 190rpx;
+  border: 1rpx solid red;
+  margin-right: 10rpx;
+  border-radius: 10rpx;
+
+}
+
+.crd_rg {
+  flex: 6;
+}
+
+.cre_title {
+  margin-bottom: 65rpx;
+}
+
+.crd_uup {
+  display: flex;
+  margin-bottom: 10rpx;
+}
+
+.cre_up {
+  width: 40rpx;
+  height: 40rpx;
+  color: rgb(197, 196, 196);
+  line-height: 24rpx;
+  font-size: 24rpx;
+  border: 4rpx solid rgb(197, 196, 196);
+  border-radius: 10rpx;
+  margin-right: 5rpx;
+  padding-left: 3rpx;
+}
+
+.crd_amount_ico {
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 24rpx;
+  border: 4rpx solid rgb(197, 196, 196);
+  border-radius: 10rpx;
+  margin-right: 5rpx;
+  padding: 1rpx 3rpx;
+}
+
+.crd_amount_i {
+  font-size: 24rpx;
+  color: rgb(158, 155, 155);
+  padding-top: 5rpx;
+}
+
+.crd_user {
+  font-size: 24rpx;
+  color: rgb(158, 155, 155);
+  padding-top: 5rpx;
+}
+
+.fx {
+  display: flex;
+}
+
+.crd_amount {
+  display: flex;
+  flex: 4;
+}
+
+.crd_time {
+  flex: 4;
+  font-size: 24rpx;
+  color: rgb(158, 155, 155);
+  padding-top: 5rpx;
+}
+
+.crd_fenxiang {
+  flex: 2;
+  margin-top: 6rpx;
+}
+
+.itemize_con {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 10rpx;
+}
+
+.itemize_con_v {
+  width: 25%;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.itemize_con_v image {
+  width: 70rpx;
+  height: 85rpx;
+}
