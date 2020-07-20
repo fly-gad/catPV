@@ -1,0 +1,28 @@
+<view class="longinId">
+  <van-cell title="展示弹出层" is-link bind:click="showPopup" />
+  <van-popup show="{{ longinId }}" bind:close="onClose" round closeable close-icon="close"
+    custom-style="width:95%;height: 50%;">
+    <view style="margin: 30rpx 30rpx;">
+      短信验证登录
+    </view>
+    <view>
+      <van-cell-group>
+        <van-field value="{{ username }}" clearable label="手机号" placeholder="请输入手机号" bind:click-icon="onClickIcon" />
+        <van-field value="{{ sms }}" center clearable label="短信验证码" placeholder="请输入短信验证码" border="{{ false }}"
+          use-button-slot>
+          <van-button slot="button" size="small" round type="primary">获取验证码</van-button>
+        </van-field>
+      </van-cell-group>
+    </view>
+    <view style="margin-top:35rpx;">
+      <van-button round size="large" bindtap="submit">提交</van-button>
+    </view>
+    <view style="margin-top:35rpx;text-align: center;color: rgb(212, 211, 211);" bindtap="login">
+      账号密码登录
+    </view>
+    <view style="font-size: 25rpx;margin-top:35rpx;color: rgb(212, 211, 211);">
+      未注册或未绑定猫人谷的手机号，将帮你注册新账号，提交代表你同意 用户协议和 隐私政策
+    </view>
+
+  </van-popup>
+</view>

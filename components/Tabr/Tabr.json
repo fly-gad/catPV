@@ -5,7 +5,6 @@
     "van-tabbar": "../../components/van/tabbar/index",
     "van-tabbar-item": "../../components/van/tabbar-item/index",
     "van-card": "../../components/van/card/index",
-    "van-icon": "../../components/van/icon/index",
-    "van-sticky": "./../components/van/sticky/index"
+    "van-icon": "../../components/van/icon/index"
   }
 }

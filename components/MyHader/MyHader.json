@@ -3,7 +3,6 @@
   "enablePullDownRefresh": true,
   "backgroundTextStyle": "dark",
   "usingComponents": {
-    "van-search": "../../components/van/search/index",
-    "van-sticky": "./../components/van/sticky/index"
+    "van-search": "../../components/van/search/index"
   }
 }

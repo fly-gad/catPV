@@ -1,1 +1,7 @@
-<Tabr></Tabr>
+<view class="empty">
+  <view class="empty_img">
+    <image src="../../icons/empty_image.png" />
+    <text>这里什么都没有</text>
+  </view>
+
+</view>

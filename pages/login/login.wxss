@@ -1,0 +1,22 @@
+.login {
+  width: 100%;
+}
+
+.btn {
+  margin: 40rpx auto;
+  width: 400rpx;
+  height: 100rpx;
+}
+
+.van-button {
+  width: 400rpx;
+}
+
+.van-button__text {
+  font-size: 32rpx;
+  font-weight: 700;
+}
+
+.van-button--normal {
+  height: 70rpx !important;
+}

@@ -1,5 +1,4 @@
 {
-  "navigationBarTitleText": "猫人谷",
   "usingComponents": {
     "MyHader": "../../components/MyHader/MyHader",
     "Tabr": "../../components/Tabr/Tabr",
@@ -9,8 +8,17 @@
     "van-tabbar-item": "../../components/van/tabbar-item/index",
     "van-card": "../../components/van/card/index",
     "van-icon": "../../components/van/icon/index",
-    "van-sticky": "./../components/van/sticky/index",
-    "van-grid": "./../components/van/grid/index",
-    "van-grid-item": "./../components/van/grid-item/index"
+    "van-sticky": "../../components/van/sticky/index",
+    "van-grid": "../../components/van/grid/index",
+    "van-grid-item": "../../components/van/grid-item/index",
+    "van-row": "../../components/van/row/index",
+    "van-col": "../../components/van/col/index",
+    "van-skeleton": "../../components/van/skeleton/index",
+    "van-button": "../../components/van/button/index",
+    "van-cell": "../../components/van/cell/index",
+    "van-dialog": "../../components/van/dialog/index",
+    "van-popup": "../../components/van/popup/index",
+    "LoginId": "../../components/LoginId/LoginId"
+
   }
 }

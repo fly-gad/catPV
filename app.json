@@ -3,16 +3,19 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/itemize/itemize",
+    "pages/feedback/feedback",
+    "pages/login/login",
     "components/MyHader/MyHader",
     "components/Tabr/Tabr",
+    "components/LoginId/LoginId",
     "pages/itemize/itemizeList/itemizeList"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "猫人谷",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
+
 }

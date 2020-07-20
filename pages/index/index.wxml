@@ -118,7 +118,33 @@
   </view>
   <!-- 我的 -->
   <view class="user" wx:if="{{show2}}">
-    user
+    <view class="user_tx">
+      <image class="" src="../../icons/健身了解一下.png" />
+    </view>
+    <view class="user_dl">
+      <view style="text-align: center;">
+        <button class="user_btn" type="primary" bindtap="handleTap" size="mini">猫人谷登录</button>
+      </view>
+      <van-popup show="{{ isHide }}" position="bottom" custom-style="height: 40%;" round>
+        <view>
+          <view class='content'>
+            <view>申请获取以下权限</view>
+            <text>获得你的公开信息(昵称，头像等)</text>
+          </view>
+          <view style="display: flex;justify-content: space-around;">
+            <button class='user_btn' type='info' size="mini" lang="zh_CN" bindtap="onCloseTw">
+              取消
+            </button>
+            <button class='user_btn' type='primary' size="mini" lang="zh_CN" bindtap="affirm">
+              授权登录
+            </button>
+          </view>
+        </view>
+      </van-popup>
+      <LoginId></LoginId>
+      <van-cell is-link title="历史记录" link-type="navigateTo" value="查看更多" url="/pages/logs/logs" />
+      <van-cell is-link title="意见反馈" link-type="navigateTo" url="/pages/feedback/feedback" />
+    </view>
   </view>
   <view>
     <van-tabbar active="{{ active }}" bind:change="onChange">

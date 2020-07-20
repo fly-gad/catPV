@@ -1,5 +1,4 @@
 {
-  "navigationBarTitleText": "猫人谷",
   "usingComponents": {
     "Tabr": "../../components/Tabr/Tabr",
     "van-tab": "../../components/van/tab/index",
@@ -7,7 +6,6 @@
     "van-tabbar": "../../components/van/tabbar/index",
     "van-tabbar-item": "../../components/van/tabbar-item/index",
     "van-card": "../../components/van/card/index",
-    "van-icon": "../../components/van/icon/index",
-    "van-sticky": "./../components/van/sticky/index"
+    "van-icon": "../../components/van/icon/index"
   }
 }
