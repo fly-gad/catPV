@@ -18,7 +18,7 @@
     "van-cell": "../../components/van/cell/index",
     "van-dialog": "../../components/van/dialog/index",
     "van-popup": "../../components/van/popup/index",
-    "LoginId": "../../components/LoginId/LoginId"
+    "van-field": "../../components/van/field/index"
 
   }
 }

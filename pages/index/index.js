@@ -11,6 +11,7 @@ Page({
     show1: false,
     show2: false,
     isHide: false,
+    longinId: false,
   },
   onChange(event) {
     this.setData({
@@ -135,7 +136,38 @@ Page({
   },
   //取消授权
   onCloseTw() {
-   
+    this.setData({
+      longinId: true
+    });
+    this.setData({
+      isHide: false
+    });
+  },
+  showPopup() {
+    this.setData({
+      longinId: true
+    });
+  },
+  onClose() {
+    this.setData({
+      longinId: false
+    });
+    wx.navigateTo({
+      url: "../../pages/login/login"
+    });
+  },
+  //提交按钮
+  submit() {
+    wx.navigateTo({
+      url: "../../pages/index/index"
+    });
+  },
+  //登录按钮
+  login() {
+    this.onClose()
+    wx.navigateTo({
+      url: "../../pages/login/login"
+    });
   },
   /**
    * 生命周期函数--监听页面加载

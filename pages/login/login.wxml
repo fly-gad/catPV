@@ -1,5 +1,7 @@
 <view class="login">
-  <!-- <van-image width="100%" height="100" src="../../icons/web.png" /> -->
+  <view class="login_img" >
+    <image src="../../icons/web.png" />
+  </view>
   <van-cell-group>
     <van-field value="{{ username }}" required clearable label="用户名" placeholder="请输入用户名"
       bind:click-icon="onClickIcon" />

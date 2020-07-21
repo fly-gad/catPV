@@ -3,6 +3,6 @@
     "van-cell": "../../components/van/cell/index",
     "van-popup": "../../components/van/popup/index",
     "van-field": "../../components/van/field/index",
-    "van-button": "./../components/van/button/index"
+    "van-button": "../../components/van/button/index"
   }
 }
