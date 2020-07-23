@@ -171,3 +171,93 @@
 .cont {
   margin: 20rpx 20rpx 20rpx 20rpx;
 }
+
+/* 热门 */
+.rm {
+  /* height: 400rpx; */
+  /* border: 1rpx solid red; */
+  box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+  padding: 10rpx;
+  margin: 10rpx;
+}
+
+.rm_con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rm_cn {
+  display: flex;
+}
+
+.rm_tx {
+  width: 75rpx;
+  height: 75rpx;
+  background: rgb(197, 193, 193);
+  border: 1px solid #999;
+}
+
+.rm_tx image {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.con_img {
+  width: 350rpx;
+}
+
+.con_tit {
+  margin: 10rpx;
+}
+
+/* 神评论 */
+
+.pl {
+  width: 100%;
+  height: 300rpx;
+  background: rgb(252, 247, 247);
+  padding: 15rpx 10rpx 15rpx 15rpx;
+}
+
+.pl_con {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pl_fo {
+  margin-top: 20rpx;
+}
+
+.pl_tx {
+  width: 55rpx;
+  height: 55rpx;
+  background: rgb(197, 193, 193);
+  border: 1px solid #999;
+}
+
+.pl_tx image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+/* 分享/评论/点赞  */
+.fxdzpl {
+  width: 100%;
+  height: 50rpx;
+  display: flex;
+  padding-top: 5rpx;
+  justify-content: space-around;
+}
+
+.con_tit {
+  font-size: 26rpx;
+}
+
+.con_con {
+  padding-bottom: 10rpx;
+}
+
+.consts {
+  line-height: 50rpx;
+}

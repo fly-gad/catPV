@@ -3,8 +3,8 @@
   <MyHader wx:if="{{show}}"></MyHader>
   <!-- 首页 -->
   <view class="nav_wrap" wx:if="{{show}}">
-    <van-tabs active="热门" sticky>
-      <van-tab title="热门" name="热门">
+    <van-tabs active="推荐" sticky>
+      <van-tab title="推荐" name="推荐">
         <view class="crd" wx:for="{{recommendList}}" wx:key="index">
           <view class="crd_lf">{{imageURL}}</view>
           <view class="crd_rg">
@@ -30,7 +30,71 @@
           </view>
         </view>
       </van-tab>
-      <van-tab title="追剧" name="追剧">追剧</van-tab>
+      <van-tab title="热门" name="热门">
+        <view class="rm" wx:for="{{5}}">
+          <!-- 用户信息 -->
+          <view class="rm_con">
+            <view class="rm_cn">
+              <view class="rm_tx">
+                <image class="" src="../../icons/userImg.jpg" />
+              </view>
+              <view style="margin-left: 10rpx;">
+                可IE我的酒窝
+              </view>
+            </view>
+            <view>
+              <van-icon name="cross" />
+            </view>
+          </view>
+          <!-- 用户内容信息 -->
+          <view class="con">
+            <view class="con_tit">佛康师傅搜发送</view>
+            <view class="con_con">
+              <image class="con_img" src="../../icons/web.png">
+              </image>
+            </view>
+          </view>
+          <!-- 评论 -->
+          <view class="pl">
+            <view class="pl_con">
+              <view class="pl_tx">
+                <image class="" src="../../icons/userImg.jpg" />
+              </view>
+              <view style="margin-right: 10rpx;display: flex;">
+                <view>
+                  <van-icon size="25" name="bulb-o" />
+                </view>
+                <view>
+                  4854685
+                </view>
+              </view>
+            </view>
+            <view class="pl_fo">
+              丝黛芬妮搜房搜房是否开始的念佛室内防水涉农涉农说你都烦 姜思达防溺水女生短发是
+            </view>
+
+          </view>
+          <!-- 分享/评论/点赞 -->
+          <view class="fxdzpl">
+            <view class="wsds">
+              <van-icon size="25px" name="share" />
+            </view>
+            <view class="consts">5456</view>
+            <view class="wsds">
+              <van-icon size="25px" name="chat-o" />
+            </view>
+            <view class="consts">4564</view>
+            <view class="wsds">
+              <van-icon size="25px" name="like-o" />
+            </view>
+            <view class="consts">454</view>
+            <view class="wsds">
+              <van-icon size="25px" name="thumb-circle-o" />
+            </view>
+            <view class="consts">45w</view>
+          </view>
+        </view>
+      </van-tab>
     </van-tabs>
   </view>
   <!-- 分区 -->
